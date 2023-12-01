@@ -1,0 +1,46 @@
+.about-components {
+  display: flex;
+  padding: 0 50px;
+  gap: 80px;
+  text-align: center;
+  &__text {
+    margin-top: 25px;
+  }
+}
+.about-it {
+  padding: 0;
+  gap: 55px;
+  &__wrapper {
+    text-align: left;
+    margin-top: 25px;
+    font-size: 14px;
+  }
+  &__text {
+    margin: 16px 0;
+    line-height: 20px;
+  }
+  &__price {
+    margin-left: 10px;
+    font-size: 24px;
+  }
+}
+.section__text {
+  font-size: 14px;
+  line-height: 20px;
+}
+.about_us__text {
+  padding: 0 100px;
+  margin: 40px auto 0;
+}
+.section__divider {
+  width: 240px;
+  height: 1px;
+  background-color: #000;
+  margin: 0 auto;
+}
+.pBreak {
+  display: block;
+  margin-top: 25px;
+}
+
+@import './responsive.scss';

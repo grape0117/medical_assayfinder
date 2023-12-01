@@ -1,0 +1,17 @@
+@import './variables.scss';
+@import './other.scss';
+@import './scss/post.scss';
+@import './scss/font.scss';
+@import './scss/about.scss';
+
+body {
+  // max-width: 1440px;
+  width: 100vw;
+  font-family: 'Merienda', cursive;
+  font-style: normal;
+  margin: 0;
+
+  .container {
+    max-width: 1170px;
+  }
+}

@@ -1,0 +1,40 @@
+  .section-post {
+    width: 100%;
+    margin-top: 20px;
+
+    .container {
+        padding: 0;
+
+        .row {
+            width: 100%;
+            margin: 0;
+
+            .col-lg-6 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &:first-child {
+
+                    img {
+                        width: 80%;
+                        height: 80%;
+                    }
+                }
+
+                &:last-child {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    .post-comment {
+                        color: #1657da;
+                        width: 50%;
+                        font-size: 20px;
+                        font-family: 'Figtree-VariableFont_wght';
+                    }
+                }
+            }
+        }
+    }
+  }
