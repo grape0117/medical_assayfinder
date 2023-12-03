@@ -4,7 +4,8 @@
 
     .container {
         padding: 0;
-
+        color: white;
+        font-size: 20px;
         .row {
             width: 100%;
             margin: 0;
@@ -28,10 +29,9 @@
                     align-items: center;
                     
                     .post-comment {
-                        color: #1657da;
-                        width: 50%;
+                        // color: #1657da;
+                        width: 80%;
                         font-size: 20px;
-                        font-family: 'Figtree-VariableFont_wght';
                     }
                 }
             }

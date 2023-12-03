@@ -1,7 +1,11 @@
 import React from 'react';
 
 import Header from '../components/Header/Header';
-import Promo from '../components/Promo/Promo';
+import DashImage from '../components/DashImage/DashImage';
+import AboutUs from '../components/Home/AboutUs/AboutUs';
+import Comprehensive from '../components/Home/Comprehensive/Comprehensive';
+import Customers from '../components/Home/Customers/Customers';
+import Contact from '../components/Contact/Contact';
 import SectionIcon from '../components/SectionIcon/SectionIcon';
 import Heading from '../components/Heading/Heading';
 import SectionText from '../components/SectionText/SectionText';
@@ -13,15 +17,16 @@ function Home({ threeBest }) {
   return (
     <>
       <Header/>
-      <Promo />
+      <DashImage />
       <Post
         src={'/resources/posts/small-image.png'}
         content={"Assayfind is the one place you can find all providers who provide any diagnostic test in one place"}
       />
-      <Post
-        src={'/resources/posts/small-image.png'}
-        content={"At Assay find , we make it easy for you to find the  laboratory test provider for your specific testing needs"}
-      />
+      <AboutUs />
+      <Comprehensive />
+      <Customers />
+      <Contact />
+
 
       {/* <section className="section-aboutus ">
         <div className={container}>

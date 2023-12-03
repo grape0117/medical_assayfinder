@@ -1,14 +1,12 @@
-import './Post.scss';
-
 function Post({ src, content }) {
   return (
     <div className='section-post'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-6 col-md-6 col-xs-12 col-sm-12'>
+          <div className='col-lg-6 col-md-6'>
             <img src={src}></img>
           </div>
-          <div className='col-lg-6 col-md-6 col-xs-12 col-sm-12'>
+          <div className='col-lg-6 col-md-6'>
             <div className='post-comment'>
               {content}
             </div>

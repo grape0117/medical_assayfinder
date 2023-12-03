@@ -1,0 +1,49 @@
+.white-background {
+    background-color: white;
+    color: #333;
+    .section {
+        padding-bottom: 50px;
+    }
+    .main-title {
+        padding-top: 20px;
+    }
+    }
+.main-title {
+    margin-top: 30px;
+    font-size: 50px;
+}
+.main-subtitle {
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.background-image {
+    background-image: url(../../public/resources/bgs/header-HealthCare.jpg);
+    height: 1000px;
+}
+.section{
+    .container {
+        max-width: 1170px;
+        margin: auto;
+        text-align: center;
+        
+        .row{
+            margin-top: 30px;
+            .col-lg-6 {
+                img {
+                    width: 60%;
+                    height: 60%;
+                }
+            }
+            .col-lg-4 {
+                padding: 0 10px;
+                font-size: 16px;
+                h2 {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    
+}

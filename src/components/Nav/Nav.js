@@ -9,7 +9,7 @@ function Nav({ color }) {
       <ul>
         <li>
           <Link to="/">
-            <img src={source} width="35" height="35" alt="two beans" className="logo" />
+            {/* <img src={source} width="35" height="35" alt="two beans" className="logo" /> */}
             Home
           </Link>
         </li>
@@ -17,7 +17,7 @@ function Nav({ color }) {
           <Link to="/Test">Test</Link>
         </li>
         <li>
-          <Link to="/">Contact</Link>
+          <Link to="/ContactUs">Contact</Link>
         </li>
       </ul>
     </nav>

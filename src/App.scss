@@ -1,13 +1,19 @@
 @import './variables.scss';
-@import './other.scss';
+@import './scss/main.scss';
+@import './scss/other.scss';
 @import './scss/post.scss';
 @import './scss/font.scss';
 @import './scss/about.scss';
+@import './scss/section.scss';
+@import './scss/contact.scss';
 
 body {
+  background-color: #1d1e20;
   // max-width: 1440px;
-  width: 100vw;
-  font-family: 'Merienda', cursive;
+  width: 100%;
+  font-family: 'Figtree-VariableFont_wght';
+  // font-family: 'ProstoOne-Regular';
+  color: white;
   font-style: normal;
   margin: 0;
 
